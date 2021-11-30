@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    max-width: 1200px;
+    gap: 2rem;
+}
+
+.messageBox{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    overflow: scroll;
+}
+
+input{
+    margin-top: 10px;
+    width: 500px;
+}
+
+
+.btn{
+    padding: 5px 30px 5px 30px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(115, 121, 120);
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color:rgb(58, 56, 56);
+  }
